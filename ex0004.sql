@@ -1,0 +1,9 @@
+DECLARE
+    v_ID SEGMERCADO.ID%TYPE := 3;
+    v_DESCRICAO SEGMERCADO.descricao%TYPE := 'Atacado';
+BEGIN
+
+    INSERT INTO SEGMERCADO (ID, descricao) VALUES (v_ID, v_DESCRICAO);
+    COMMIT;
+
+END;
