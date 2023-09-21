@@ -1,0 +1,1 @@
+EXECUTE incluir_segmercado(4,'Farmaceuticos');
